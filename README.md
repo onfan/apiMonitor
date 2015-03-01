@@ -1,3 +1,10 @@
+# Api Health Monitor
+
+This is a project to test our API from a monitor server. This is a initial commit, an alpha version. To run, just copy app/api/Monitor/config.dist.js to config.dist and configure your access to Oauth2 system to get an access token (via some grant_type of "two-legged" system). This file (config.js) is not versioned. 
+
+This code is based in angular-seed initial. 
+
+
 # angular-seed — the seed for AngularJS apps
 
 This project is an application skeleton for a typical [AngularJS](http://angularjs.org/) web app.
