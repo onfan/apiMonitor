@@ -1,0 +1,12 @@
+'use strict';
+
+angular.module('config', [])
+
+    .constant('config', {
+        "grant_type": "THE_GRANT_TYPE",
+        "username": "USERNAME",
+        "password": "PASSWORD",
+        "client_id": "CLIENT_ID",
+        "client_secret": "CLIENT_SECRET",
+        'oauthUrl': 'AUTHENTICATION_URL'
+    });
